@@ -333,13 +333,35 @@
 	(embedded_fonts no)
 	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/TinyPico/TinyPICO_V2_USBC v2.step"
 		(offset
-			(xyz -9 19.25 0)
+			(xyz -9 19.25 2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz -0 -0 90)
+		)
+	)
+	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/TinyPico/DS1031-01-1x10P8BV3-1.step"
+		(offset
+			(xyz 7.5 0 2)
+		)
+		(scale
+			(xyz 2 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -90)
+		)
+	)
+	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/TinyPico/DS1031-01-1x10P8BV3-1.step"
+		(offset
+			(xyz -7.75 0 2)
+		)
+		(scale
+			(xyz 2 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -90)
 		)
 	)
 )
