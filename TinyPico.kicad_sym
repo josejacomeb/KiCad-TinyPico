@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TinyPico"
+			(at -0.254 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
