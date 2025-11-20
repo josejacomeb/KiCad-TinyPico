@@ -331,9 +331,9 @@
 		(uuid "8c74400b-1c81-4d64-88ad-471dd8f1f6f0")
 	)
 	(embedded_fonts no)
-	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/TinyPico/TinyPICO_V2_USBC v2.step"
+	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/Schematics/kicad-libraries/TinyPico/TinyPICO_V2_USBC v2.step"
 		(offset
-			(xyz -9 19.25 2)
+			(xyz -8.9 19.25 2.5)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -342,26 +342,26 @@
 			(xyz -0 -0 90)
 		)
 	)
-	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/TinyPico/DS1031-01-1x10P8BV3-1.step"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.step"
 		(offset
-			(xyz 7.5 0 2)
+			(xyz 7.65 11.5 2.5)
 		)
 		(scale
-			(xyz 2 1 1)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -180 -90)
+			(xyz -0 -180 -0)
 		)
 	)
-	(model "/home/josejacomeb/Documents/tinypico-cycling-tracker/footprints/TinyPico/DS1031-01-1x10P8BV3-1.step"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.step"
 		(offset
-			(xyz -7.75 0 2)
+			(xyz -7.65 11.5 2.5)
 		)
 		(scale
-			(xyz 2 1 1)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -180 -90)
+			(xyz -0 -180 -0)
 		)
 	)
 )
