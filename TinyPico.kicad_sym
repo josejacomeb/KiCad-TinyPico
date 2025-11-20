@@ -63,7 +63,7 @@
 			)
 		)
 		(symbol "TinyPICO_V2_USBC_1_1"
-			(pin input line
+			(pin bidirectional line
 				(at -10.16 11.43 0)
 				(length 2.54)
 				(name "IO23"
@@ -73,7 +73,7 @@
 						)
 					)
 				)
-				(number "23"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -81,7 +81,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -10.16 8.89 0)
 				(length 2.54)
 				(name "IO19"
@@ -91,7 +91,7 @@
 						)
 					)
 				)
-				(number "19"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -99,7 +99,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -10.16 6.35 0)
 				(length 2.54)
 				(name "IO18"
@@ -109,7 +109,7 @@
 						)
 					)
 				)
-				(number "18"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -117,10 +117,28 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "IO5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "I22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -135,25 +153,7 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 1.27 0)
-				(length 2.54)
-				(name "I22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
+			(pin bidirectional line
 				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "IO21"
@@ -163,7 +163,7 @@
 						)
 					)
 				)
-				(number "21"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -171,7 +171,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "IO32"
@@ -181,7 +181,7 @@
 						)
 					)
 				)
-				(number "32"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -189,7 +189,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name "IO33"
@@ -199,7 +199,7 @@
 						)
 					)
 				)
-				(number "33"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -217,7 +217,7 @@
 						)
 					)
 				)
-				(number "RST"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -235,7 +235,7 @@
 						)
 					)
 				)
-				(number "G"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -243,7 +243,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 10.16 11.43 180)
 				(length 2.54)
 				(name "BAT"
@@ -253,7 +253,7 @@
 						)
 					)
 				)
-				(number "BAT"
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -271,7 +271,7 @@
 						)
 					)
 				)
-				(number "G"
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -279,7 +279,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 10.16 6.35 180)
 				(length 2.54)
 				(name "5V"
@@ -289,7 +289,7 @@
 						)
 					)
 				)
-				(number "5V"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -297,7 +297,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "3V3"
@@ -307,7 +307,7 @@
 						)
 					)
 				)
-				(number "3V3"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -315,7 +315,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 10.16 1.27 180)
 				(length 2.54)
 				(name "IO4"
@@ -325,7 +325,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -333,28 +333,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 10.16 -1.27 180)
 				(length 2.54)
 				(name "IO14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -3.81 180)
-				(length 2.54)
-				(name "IO15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -369,7 +351,25 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "IO15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at 10.16 -6.35 180)
 				(length 2.54)
 				(name "IO27"
@@ -379,7 +379,7 @@
 						)
 					)
 				)
-				(number "27"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -387,7 +387,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 10.16 -8.89 180)
 				(length 2.54)
 				(name "IO26"
@@ -397,7 +397,7 @@
 						)
 					)
 				)
-				(number "26"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -405,7 +405,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 10.16 -11.43 180)
 				(length 2.54)
 				(name "IO25"
@@ -415,7 +415,7 @@
 						)
 					)
 				)
-				(number "25"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
